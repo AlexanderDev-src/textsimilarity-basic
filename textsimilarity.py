@@ -71,7 +71,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Plagiarism Checker Pro")
+        self.title("Plagiarism Checker")
         self.geometry("700x650")
 
         self.title_label = ctk.CTkLabel(self, text="Plagiarism Checker System", font=("Roboto", 24, "bold"))
